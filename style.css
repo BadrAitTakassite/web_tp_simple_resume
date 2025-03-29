@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Dark Background */
+    color: #e0e0e0; /* Light Text */
+}
+
+/* Style for Cards */
+.card {
+    background-color: #1e1e1e; /* Darker Cards */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Headers */
+h2, h3, h4, h5, h6, ul, p {
+    color: #ecebed; /* Light Purple for Titles */
+}
+
+/* Links */
+a {
+    color: #cac8cd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Badges */
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Muted Text */
+.text-muted {
+    color: #b0b0b0 !important;
+}
+
+/* List Groups */
+.list-group-item {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    color: #e0e0e0;
+}
+
+/* HR (Divider) */
+hr {
+    border-color: #333;
+}
